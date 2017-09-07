@@ -1,5 +1,5 @@
 <?php
-require "httpsonly.php";
+require_once "httpsonly.php";
 
 $password = 'p@$$w0rd';
 $hash = password_hash($password, PASSWORD_DEFAULT);
